@@ -1,0 +1,9 @@
+<html>
+    <head>
+        <title>Flask-Ethereum example app</title>
+        {{ web3.include_web3() }}
+    </head>
+    <body>
+        <p>Your Ethereum address is: {{ web3.user_address() }}</p>
+    </body>
+</html>
